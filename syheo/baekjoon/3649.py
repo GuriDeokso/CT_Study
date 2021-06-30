@@ -34,7 +34,7 @@ def is_possible(find_value,legos):
 
 def search(legos,x):
     answer = 10000001
-    legos = deque(legos)
+    legos = deque(legos) 
     while legos:
         a = legos.popleft()
         if a>x//2+1:
