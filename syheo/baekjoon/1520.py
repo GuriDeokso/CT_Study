@@ -7,7 +7,10 @@
 # 아이디어 
 # bfs 를 돌면서 범위 체크, 내리막길 체크를 제외하고 두가지 조건을 확인하여 접근한다.
 # 같은 방향에서 온 경우가 없는지 => visited[r][c][i]==0 
-# 같은 방향에서 온 경우가 있는데 뒤늦게 온 경우 => visited[r][c][i]<sum(visited[row][col])
+# 같은 방향에서 온 경우가 있는데 늦게 업데이트 
+# 궁금점
+# 완전탐색 -> 시간 초과 , 조건  (visited[r][c][i]==0 or visited[r][c][i]<sum(visited[row][col])) 넣었을 땐 정답
+# 정확히 어느 경우에서 시간을 단축시키는걸까.
 
 from collections import deque
 import sys 
