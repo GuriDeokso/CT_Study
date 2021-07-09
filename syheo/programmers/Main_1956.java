@@ -6,8 +6,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
-import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Main_1956{
     static final int INF = 999999999;
