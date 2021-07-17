@@ -66,11 +66,10 @@ public class BaekJoon_4386 {
         return Math.sqrt(Math.pow((x2 - x), 2) + Math.pow((y2 - y), 2));
     }
 
-    public static void unionParnet(int[] parent, int a, int b) { // 3 4
+    public static void unionParnet(int[] parent, int a, int b) {
         int parentA = findParent(parent, a);
         int parentB = findParent(parent, b);
-        //1 2 3 4 -> 1 2 3 4
-        //1 2 1 2 -> 1 1 1 2
+
         if (parentA < parentB) parent[parentB] = parentA;
         else parent[parentA] = parentB;
     }

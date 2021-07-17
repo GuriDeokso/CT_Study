@@ -25,7 +25,6 @@ public class BaekJoon_1956{
             graph.add(new ArrayList<>());
         }
 
-
         int e = Integer.parseInt(st.nextToken());
         for(int i=0; i<e; i++) {
             st = new StringTokenizer(br.readLine());
@@ -36,18 +35,18 @@ public class BaekJoon_1956{
         }
         for(int i=1; i<v + 1; i++) {
             visited = new boolean[v + 1];
-            dfs(i, i, 0);
+            solution(i, i, 0);
         }
-        System.out.println((minCost >= Integer.MAX_VALUE) ? minCost : -1);
+        System.out.println((minCost < Integer.MAX_VALUE) ? minCost : -1);
     }
 
-    public static void dfs(int start, int root, int cost) {
+    public static void solution(int start, int root, int cost) {
         visited[start] = true;
         for(Node adjNode: graph.get(start)) {
             if(!visited[adjNode.v]) {
-                dfs(adjNode.v, root, cost + adjNode.cost);
+                solution(adjNode.v, root, cost + adjNode.cost);
             } else if(adjNode.v == root) {
-                minCost = Math.min(minCost, cost + adjNode.cost); //
+                minCost = Math.min(minCost, cost + adjNode.cost);
             }
         }
     }
