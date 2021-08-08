@@ -117,6 +117,7 @@ public class Main_3055 {
             }
         }
 
+
         //4. answer
         if(result==-1){
             System.out.println(notArrived);
