@@ -128,9 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# DS_ STORE
 .DS_Store
 */.DS_Store
-
 
 # Created by https://www.toptal.com/developers/gitignore/api/intellij
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij
@@ -243,3 +243,8 @@ fabric.properties
 .idea/codestream.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij
+#.idea
+.idea
+codingTest_GuriDeokso.iml
+
+out
