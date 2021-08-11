@@ -131,3 +131,7 @@ dmypy.json
 # DS_ STORE
 .DS_Store
 */.DS_Store
+
+#.idea
+.idea
+codingTest_GuriDeokso.iml
