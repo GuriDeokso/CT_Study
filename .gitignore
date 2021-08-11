@@ -128,5 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# DS_ STORE
 .DS_Store
 */.DS_Store
+
+#.idea
+.idea
+codingTest_GuriDeokso.iml
+
+out
