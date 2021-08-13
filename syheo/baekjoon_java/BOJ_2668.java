@@ -35,7 +35,7 @@ public class BOJ_2668 {
         }
         for(int i=1;i<=N;i++){
             if(!nums.get(i).equals(i)){
-                int first = 
+//                int first =
             }
         }
 
