@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon_python;
 
 import java.io.*;
 import java.util.Arrays;

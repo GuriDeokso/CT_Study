@@ -1,4 +1,4 @@
-package syheo.programmers;
+package baekjoon_java;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
