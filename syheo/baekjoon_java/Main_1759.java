@@ -6,6 +6,16 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/**
+ * solved.ac
+ * 백준
+ * 1759
+ * 암호 만들기
+ * 골드 5
+ *
+ * 아이디어 : 알파벳 오름차순 정렬 후 dfs를 통해 암호 생성
+ **/
+
 public class Main_1759 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
